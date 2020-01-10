@@ -27,7 +27,7 @@ es镜像基于5.6.4版本，进行了两个方面的修改：1、打入了结巴
 kubectl create -f gluster-storage-class.yaml
 kubectl create -f es-discovery-svc.yaml
 kubectl create -f es-svc.yaml
-kubectl craete -f es-master-svc.yaml
+kubectl create -f es-master-svc.yaml
 kubectl create -f es-master-stateful-gfs.yaml
 ```
 等到master 节点起来之后，部署client和data节点
